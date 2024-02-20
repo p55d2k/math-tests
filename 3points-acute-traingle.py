@@ -47,7 +47,7 @@ def main():
     # print results
     time.sleep(2)
     
-    print("\033c")
+    print("\nResults:")
     print(f"Sample size: {sample_size}")
     print(f"Number of acute triangles: {num_acute_triangles}")
     print(f"Fraction of those forming an acute triangle: {probability:.4f}")
